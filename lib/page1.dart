@@ -84,11 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
               appKit: _appKitModal,
               context: context,
             ),
-            AppKitModalConnectButton(
-              appKit: _appKitModal,
-              context: context,
-              state: ConnectButtonState.none,
-            ),
+            AppKitModalConnectButton(appKit: _appKitModal, context: context),
             Visibility(
               visible: _appKitModal.isConnected,
               child: AppKitModalAccountButton(
