@@ -1,0 +1,416 @@
+Launching lib\main.dart on SM S921W in debug mode...
+Running Gradle task 'assembleDebug'...                             16.4s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...          11.7s
+I/flutter (23967): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(61)] Using the Impeller rendering backend (Vulkan).
+Syncing files to device SM S921W...                                232ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on SM S921W is available at: http://127.0.0.1:55130/h4f0f3Knb8o=/
+The Flutter DevTools debugger and profiler on SM S921W is available at: http://127.0.0.1:9102?uri=http://127.0.0.1:55130/h4f0f3Knb8o=/
+D/ProfileInstaller(23967): Installing profile for com.example.renowed
+I/VRI[MainActivity]@becc92f(23967): onDisplayChanged oldDisplayState=2 newDisplayState=2
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@becc92f
+I/VRI[MainActivity]@becc92f(23967): onDisplayChanged oldDisplayState=2 newDisplayState=2
+I/WebViewFactory(23967): Loading com.google.android.webview version 139.0.7258.160 (code 725816033)
+W/ResourcesManager(23967): Found a null ResourcesImpl, skipped.
+V/ResourcesManager(23967): The following library key has been added: ResourcesKey{ mHash=59af331d mResDir=null mSplitDirs=[] mOverlayDirs=[/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk] mLibDirs=[/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/base.apk,/data/app/~~QaLJCrPYIhAz5do_ZtOT3w==/com.google.android.trichromelibrary_725816033-8dHL35H9e8dj9gWmtKpEGw==/base.apk,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v35 mCompatInfo={480dpi always-compat} mLoaders=[]}
+W/example.renowed(23967): Failed to find entry 'classes.dex': Entry not found
+D/nativeloader(23967): Configuring clns-8 for other apk /data/app/~~QaLJCrPYIhAz5do_ZtOT3w==/com.google.android.trichromelibrary_725816033-8dHL35H9e8dj9gWmtKpEGw==/base.apk. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/lib/arm64:/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/base.apk!/lib/arm64-v8a:/data/app/~~QaLJCrPYIhAz5do_ZtOT3w==/com.google.android.trichromelibrary_725816033-8dHL35H9e8dj9gWmtKpEGw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+D/nativeloader(23967): Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libdigital_tele_scope_rawsr.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libmf_bayer_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:l
+D/ApplicationLoaders(23967): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/nativeloader(23967): Configuring clns-9 for other apk /data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/lib/arm64:/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/base.apk!/lib/arm64-v8a:/data/app/~~QaLJCrPYIhAz5do_ZtOT3w==/com.google.android.trichromelibrary_725816033-8dHL35H9e8dj9gWmtKpEGw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+I/cr_WVCFactoryProvider(23967): version=139.0.7258.160 (725816033) minSdkVersion=29 multiprocess=true packageId=2 splits=<none>
+D/nativeloader(23967): Load /data/app/~~QaLJCrPYIhAz5do_ZtOT3w==/com.google.android.trichromelibrary_725816033-8dHL35H9e8dj9gWmtKpEGw==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using class loader ns clns-9 (caller=/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/base.apk): ok
+D/nativeloader(23967): Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-9 (caller=/data/app/~~Atr_hLDiQHW8yIE_d98yMQ==/com.google.android.webview-0aeKmtawBHZJaGUHQufWzw==/base.apk): ok
+I/cr_LibraryLoader(23967): Successfully loaded native library
+I/cr_CachingUmaRecorder(23967): Flushed 13 samples from 13 histograms, 0 samples were dropped.
+W/WindowOnBackDispatcher(23967): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(23967): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter (23967): [EventsTracker] [Events] tracker: null stored events
+D/ConnectivityManager(23967): StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4736)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5461)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5428)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5402)] [dev.fluttercommunity.plus.connectivity.ConnectivityBroadcastReceiver.onListen(ConnectivityBroadcastReceiver.java:77)] [io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler.onListen(EventChannel.java:218)] [io.flutter.plugin.common.EventChannel$IncomingStreamRequestHandler.onMessage(EventChannel.java:197)] [io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:292)] [io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:319)] [io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)]
+E/getAppPackageInfo (org.toshi)(23967): org.toshi
+E/getAppPackageInfo (app.phantom)(23967): app.phantom
+E/getAppPackageInfo (com.solflare.mobile)(23967): com.solflare.mobile
+E/getAppPackageInfo (io.metamask)(23967): io.metamask
+E/getAppPackageInfo (com.wallet.crypto.trustapp)(23967): com.wallet.crypto.trustapp
+E/getAppPackageInfo (io.zerion.android)(23967): io.zerion.android
+E/getAppPackageInfo (com.okinc.okex.gp)(23967): com.okinc.okex.gp
+E/getAppPackageInfo (io.safepal.wallet)(23967): io.safepal.wallet
+E/getAppPackageInfo (vip.mytokenpocket)(23967): vip.mytokenpocket
+E/getAppPackageInfo (com.uniswap.mobile)(23967): com.uniswap.mobile
+E/getAppPackageInfo (com.bestwallet.mobile)(23967): com.bestwallet.mobile
+E/getAppPackageInfo (com.ledger.live)(23967): com.ledger.live
+E/getAppPackageInfo (com.bybit.app)(23967): com.bybit.app
+E/getAppPackageInfo (com.elrond.maiar.wallet)(23967): com.elrond.maiar.wallet
+E/getAppPackageInfo (com.fireblocks.client)(23967): com.fireblocks.client
+E/getAppPackageInfo (com.defi.wallet)(23967): com.defi.wallet
+E/getAppPackageInfo (com.bitcoin.mwallet)(23967): com.bitcoin.mwallet
+E/getAppPackageInfo (com.bifrostwallet.app)(23967): com.bifrostwallet.app
+E/getAppPackageInfo (im.token.app)(23967): im.token.app
+E/getAppPackageInfo (io.oneinch.android)(23967): io.oneinch.android
+E/getAppPackageInfo (piuk.blockchain.android)(23967): piuk.blockchain.android
+E/getAppPackageInfo (io.gnosis.safe)(23967): io.gnosis.safe
+E/getAppPackageInfo (com.bitpay.wallet)(23967): com.bitpay.wallet
+E/getAppPackageInfo (jp.co.rakuten.web3wallet.crypto)(23967): jp.co.rakuten.web3wallet.crypto
+E/getAppPackageInfo (co.arculus.wallet.android)(23967): co.arculus.wallet.android
+E/getAppPackageInfo (xyz.ctrl.wallet)(23967): xyz.ctrl.wallet
+E/getAppPackageInfo (com.skymavis.genesis)(23967): com.skymavis.genesis
+E/getAppPackageInfo (com.wemade.wemixplay)(23967): com.wemade.wemixplay
+E/getAppPackageInfo (com.permutize.haha)(23967): com.permutize.haha
+E/getAppPackageInfo (com.okx.wallet)(23967): com.okx.wallet
+E/getAppPackageInfo (app.hashpack.wallet.twa)(23967): app.hashpack.wallet.twa
+E/getAppPackageInfo (me.rainbow)(23967): me.rainbow
+E/getAppPackageInfo (com.valar.pintu)(23967): com.valar.pintu
+E/getAppPackageInfo (exodusmovement.exodus)(23967): exodusmovement.exodus
+E/getAppPackageInfo (com.wigwamapp)(23967): com.wigwamapp
+E/getAppPackageInfo (com.tangem.wallet)(23967): com.tangem.wallet
+E/getAppPackageInfo (ag.jup.jupiter.android)(23967): ag.jup.jupiter.android
+E/getAppPackageInfo (exchange.blackfort.blackfortwallet)(23967): exchange.blackfort.blackfortwallet
+E/getAppPackageInfo (com.ibvm.wallet)(23967): com.ibvm.wallet
+E/getAppPackageInfo (network.bee.app)(23967): network.bee.app
+E/getAppPackageInfo (com.kraken.superwallet)(23967): com.kraken.superwallet
+E/getAppPackageInfo (com.magiceden.wallet)(23967): com.magiceden.wallet
+E/getAppPackageInfo (app.herewallet.hot)(23967): app.herewallet.hot
+E/getAppPackageInfo (org.toshi)(23967): org.toshi
+E/getAppPackageInfo (com.kr.iotrust.dcent.wallet)(23967): com.kr.iotrust.dcent.wallet
+E/getAppPackageInfo (io.sowaka.avacus)(23967): io.sowaka.avacus
+E/getAppPackageInfo (com.chainapsis.keplr)(23967): com.chainapsis.keplr
+E/getAppPackageInfo (com.mathwallet.android)(23967): com.mathwallet.android
+E/getAppPackageInfo (com.lobstr.client)(23967): com.lobstr.client
+E/getAppPackageInfo (com.yowallet.app)(23967): com.yowallet.app
+E/getAppPackageInfo (com.internetmoneywallet.app)(23967): com.internetmoneywallet.app
+E/getAppPackageInfo (app.backpack.mobile)(23967): app.backpack.mobile
+E/getAppPackageInfo (com.robinhood.gateway)(23967): com.robinhood.gateway
+E/getAppPackageInfo (com.socios)(23967): com.socios
+E/getAppPackageInfo (com.avaxwallet)(23967): com.avaxwallet
+E/getAppPackageInfo (com.huddln)(23967): com.huddln
+E/getAppPackageInfo (xyz.joeywallet)(23967): xyz.joeywallet
+E/getAppPackageInfo (so.onekey.app.wallet)(23967): so.onekey.app.wallet
+E/getAppPackageInfo (com.flowfoundation.wallet)(23967): com.flowfoundation.wallet
+E/getAppPackageInfo (io.getwombat.android)(23967): io.getwombat.android
+E/getAppPackageInfo (com.modular)(23967): com.modular
+E/getAppPackageInfo (app.subwallet.mobile)(23967): app.subwallet.mobile
+E/getAppPackageInfo (im.argent.contractwalletclient)(23967): im.argent.contractwalletclient
+E/getAppPackageInfo (wallet.kabila.app)(23967): wallet.kabila.app
+E/getAppPackageInfo (com.myetherwallet.mewwallet)(23967): com.myetherwallet.mewwallet
+E/getAppPackageInfo (kh.com.sabay.sabaywallet)(23967): kh.com.sabay.sabaywallet
+E/getAppPackageInfo (loopring.defi.wallet)(23967): loopring.defi.wallet
+E/getAppPackageInfo (com.tokoin.wallet)(23967): com.tokoin.wallet
+E/getAppPackageInfo (com.klipwallet.app)(23967): com.klipwallet.app
+E/getAppPackageInfo (io.novafoundation.nova.market)(23967): io.novafoundation.nova.market
+E/getAppPackageInfo (com.nft5.imota)(23967): com.nft5.imota
+E/getAppPackageInfo (com.moonpay)(23967): com.moonpay
+E/getAppPackageInfo (defisuisse.thorwallet)(23967): defisuisse.thorwallet
+E/getAppPackageInfo (com.zengo.wallet)(23967): com.zengo.wallet
+E/getAppPackageInfo (com.oasys_wallet.oas_app)(23967): com.oasys_wallet.oas_app
+E/getAppPackageInfo (com.yowallet.app)(23967): com.yowallet.app
+E/getAppPackageInfo (llp.bc_group.cvl_wallet)(23967): llp.bc_group.cvl_wallet
+E/getAppPackageInfo (com.bitso.wallet)(23967): com.bitso.wallet
+E/getAppPackageInfo (com.cypherd.androidwallet)(23967): com.cypherd.androidwallet
+E/getAppPackageInfo (co.clabs.valora)(23967): co.clabs.valora
+E/getAppPackageInfo (io.leapwallet.cosmos)(23967): io.leapwallet.cosmos
+E/getAppPackageInfo (com.oberton.app)(23967): com.oberton.app
+E/getAppPackageInfo (io.atomicwallet)(23967): io.atomicwallet
+E/getAppPackageInfo (com.wirex.wallet)(23967): com.wirex.wallet
+E/getAppPackageInfo (io.kriptomat.app)(23967): io.kriptomat.app
+E/getAppPackageInfo (io.horizontalsystems.bankwallet)(23967): io.horizontalsystems.bankwallet
+E/getAppPackageInfo (org.u2u.wallet)(23967): org.u2u.wallet
+E/getAppPackageInfo (com.hxg.wallet)(23967): com.hxg.wallet
+E/getAppPackageInfo (com.tomiapp.production)(23967): com.tomiapp.production
+E/getAppPackageInfo (com.frontierwallet)(23967): com.frontierwallet
+E/getAppPackageInfo (com.coinspace.app)(23967): com.coinspace.app
+E/getAppPackageInfo (com.PlusWallet)(23967): com.PlusWallet
+E/getAppPackageInfo (com.wirex.wallet)(23967): com.wirex.wallet
+E/getAppPackageInfo (com.kyrd.krystal)(23967): com.kyrd.krystal
+E/getAppPackageInfo (com.superblock.overmobile)(23967): com.superblock.overmobile
+E/getAppPackageInfo (com.blockcerts.BlockCerts)(23967): com.blockcerts.BlockCerts
+E/getAppPackageInfo (com.creditcoin.mobile)(23967): com.creditcoin.mobile
+E/getAppPackageInfo (org.gooddollar)(23967): org.gooddollar
+E/getAppPackageInfo (com.coindcx.okto)(23967): com.coindcx.okto
+E/getAppPackageInfo (org.alephium.wallet)(23967): org.alephium.wallet
+E/getAppPackageInfo (com.mtpelerin.bridge)(23967): com.mtpelerin.bridge
+E/getAppPackageInfo (com.burritowallet.app)(23967): com.burritowallet.app
+E/getAppPackageInfo (com.enjin.mobile.wallet)(23967): com.enjin.mobile.wallet
+E/getAppPackageInfo (com.gemwallet.android)(23967): com.gemwallet.android
+E/getAppPackageInfo (aurora.pass.android.app)(23967): aurora.pass.android.app
+E/getAppPackageInfo (io.leapwallet.compass)(23967): io.leapwallet.compass
+E/getAppPackageInfo (coin98.crypto.finance.media)(23967): coin98.crypto.finance.media
+E/getAppPackageInfo (app.linen.wallet)(23967): app.linen.wallet
+E/getAppPackageInfo (com.coolbitx.cwsapp)(23967): com.coolbitx.cwsapp
+E/getAppPackageInfo (io.noone.androidwallet)(23967): io.noone.androidwallet
+E/getAppPackageInfo (com.nowwallet)(23967): com.nowwallet
+E/getAppPackageInfo (com.haqq.wallet)(23967): com.haqq.wallet
+E/getAppPackageInfo (com.finverselabs.openwallet)(23967): com.finverselabs.openwallet
+E/getAppPackageInfo (com.eucalyptuslabs.kowallet)(23967): com.eucalyptuslabs.kowallet
+E/getAppPackageInfo (com.aktionariat.app)(23967): com.aktionariat.app
+E/getAppPackageInfo (com.cakewallet.cake_wallet)(23967): com.cakewallet.cake_wallet
+E/getAppPackageInfo (com.nslab.purewalletp)(23967): com.nslab.purewalletp
+E/getAppPackageInfo (com.metapro.app)(23967): com.metapro.app
+E/getAppPackageInfo (com.hideout.wallet)(23967): com.hideout.wallet
+E/getAppPackageInfo (com.yuse.wallet)(23967): com.yuse.wallet
+E/getAppPackageInfo (app.opto.wallet)(23967): app.opto.wallet
+E/getAppPackageInfo (com.ethermail.ethermail_android)(23967): com.ethermail.ethermail_android
+E/getAppPackageInfo (com.foxwallet.play)(23967): com.foxwallet.play
+E/getAppPackageInfo (com.companyname.swaptobe)(23967): com.companyname.swaptobe
+E/getAppPackageInfo (io.holdstation)(23967): io.holdstation
+E/getAppPackageInfo (com.wallet.thepulse)(23967): com.wallet.thepulse
+E/getAppPackageInfo (co.bacoor.keyring)(23967): co.bacoor.keyring
+E/getAppPackageInfo (co.jp.xcreation.premawallet)(23967): co.jp.xcreation.premawallet
+E/getAppPackageInfo (co.mirailabs.app)(23967): co.mirailabs.app
+E/getAppPackageInfo (com.kucoin.wallet)(23967): com.kucoin.wallet
+E/getAppPackageInfo (io.iotex.iopay.gp)(23967): io.iotex.iopay.gp
+E/getAppPackageInfo (org.bitizen.wallet)(23967): org.bitizen.wallet
+E/getAppPackageInfo (app.tholos.tholos)(23967): app.tholos.tholos
+E/getAppPackageInfo (com.nightlymobile)(23967): com.nightlymobile
+E/getAppPackageInfo (com.coinomi.wallet)(23967): com.coinomi.wallet
+E/getAppPackageInfo (app.stickey)(23967): app.stickey
+E/getAppPackageInfo (io.uptn.wallet)(23967): io.uptn.wallet
+E/getAppPackageInfo (com.pundix.functionx)(23967): com.pundix.functionx
+E/getAppPackageInfo (com.coinstats.crypto.portfolio)(23967): com.coinstats.crypto.portfolio
+E/getAppPackageInfo (app.nicegram)(23967): app.nicegram
+E/getAppPackageInfo (app.harti)(23967): app.harti
+E/getAppPackageInfo (com.pillarproject.wallet)(23967): com.pillarproject.wallet
+E/getAppPackageInfo (co.bacoor.android.hbwallet)(23967): co.bacoor.android.hbwallet
+E/getAppPackageInfo (com.zelcash.zelcore)(23967): com.zelcash.zelcore
+E/getAppPackageInfo (com.tellaw.tellaw)(23967): com.tellaw.tellaw
+E/getAppPackageInfo (com.trusteewallet)(23967): com.trusteewallet
+E/getAppPackageInfo (com.thebasicsmeishi)(23967): com.thebasicsmeishi
+E/getAppPackageInfo (org.bladelabs.wallet)(23967): org.bladelabs.wallet
+E/getAppPackageInfo (com.onechain.saas)(23967): com.onechain.saas
+E/getAppPackageInfo (com.ixo.mobile)(23967): com.ixo.mobile
+E/getAppPackageInfo (com.unstoppabledomains.manager)(23967): com.unstoppabledomains.manager
+E/getAppPackageInfo (wannabit.io.cosmostaion)(23967): wannabit.io.cosmostaion
+E/getAppPackageInfo (com.binance.us)(23967): com.binance.us
+E/getAppPackageInfo (ch.shiftcrypto.bitboxapp)(23967): ch.shiftcrypto.bitboxapp
+E/getAppPackageInfo (org.theta.wallet)(23967): org.theta.wallet
+E/getAppPackageInfo (com.bitazza.freedom.wallet)(23967): com.bitazza.freedom.wallet
+E/getAppPackageInfo (com.muza.muza)(23967): com.muza.muza
+E/getAppPackageInfo (com.blockchain.crypto.wallet.neopin)(23967): com.blockchain.crypto.wallet.neopin
+E/getAppPackageInfo (neo.org.freewallet.app)(23967): neo.org.freewallet.app
+E/getAppPackageInfo (io.ryi.pay)(23967): io.ryi.pay
+E/getAppPackageInfo (ventures.aag.metaone)(23967): ventures.aag.metaone
+E/getAppPackageInfo (io.legacynetwork.app)(23967): io.legacynetwork.app
+E/getAppPackageInfo (com.worldwebms.multisigwallet)(23967): com.worldwebms.multisigwallet
+E/getAppPackageInfo (com.coininn.wallet)(23967): com.coininn.wallet
+E/getAppPackageInfo (xyz.timelesswallet.aa)(23967): xyz.timelesswallet.aa
+E/getAppPackageInfo (com.legendwd.hyperpayW)(23967): com.legendwd.hyperpayW
+E/getAppPackageInfo (net.safemoon.androidwallet)(23967): net.safemoon.androidwallet
+E/getAppPackageInfo (co.theeasy.app)(23967): co.theeasy.app
+E/getAppPackageInfo (io.myabcwallet.mpc)(23967): io.myabcwallet.mpc
+E/getAppPackageInfo (com.secuxapp)(23967): com.secuxapp
+E/getAppPackageInfo (com.midoin)(23967): com.midoin
+E/getAppPackageInfo (id.competence)(23967): id.competence
+E/getAppPackageInfo (com.beanbag.wallet)(23967): com.beanbag.wallet
+E/getAppPackageInfo (com.github.ontio.onto)(23967): com.github.ontio.onto
+E/getAppPackageInfo (finance.klever.bitcoin.wallet)(23967): finance.klever.bitcoin.wallet
+E/getAppPackageInfo (com.beexo)(23967): com.beexo
+E/getAppPackageInfo (com.ivirse.figame)(23967): com.ivirse.figame
+E/getAppPackageInfo (io.stormbird.wallet)(23967): io.stormbird.wallet
+E/getAppPackageInfo (software.concordium.mobilewallet.seedphrase.mainnet)(23967): software.concordium.mobilewallet.seedphrase.mainnet
+E/getAppPackageInfo (com.ancryptoWallet)(23967): com.ancryptoWallet
+E/getAppPackageInfo (com.savl)(23967): com.savl
+E/getAppPackageInfo (com.pitakamobile)(23967): com.pitakamobile
+E/getAppPackageInfo (com.saitapro)(23967): com.saitapro
+E/getAppPackageInfo (im.status.ethereum)(23967): im.status.ethereum
+E/getAppPackageInfo (com.shido.wallet)(23967): com.shido.wallet
+E/getAppPackageInfo (com.authentrend.atwallet)(23967): com.authentrend.atwallet
+E/getAppPackageInfo (io.paliwallet)(23967): io.paliwallet
+E/getAppPackageInfo (com.digitalasset.fintoken)(23967): com.digitalasset.fintoken
+E/getAppPackageInfo (com.fizen.io.wallet)(23967): com.fizen.io.wallet
+E/getAppPackageInfo (app.unawallet.app)(23967): app.unawallet.app
+E/getAppPackageInfo (com.ambire.wallet)(23967): com.ambire.wallet
+E/getAppPackageInfo (io.armana.portal)(23967): io.armana.portal
+E/getAppPackageInfo (com.augeo.kigo)(23967): com.augeo.kigo
+E/getAppPackageInfo (com.kryptogo.walletapp)(23967): com.kryptogo.walletapp
+E/getAppPackageInfo (com.getcogni.app)(23967): com.getcogni.app
+E/getAppPackageInfo (io.wallacy.cryptowallet)(23967): io.wallacy.cryptowallet
+E/getAppPackageInfo (one.mixin.messenger)(23967): one.mixin.messenger
+E/getAppPackageInfo (org.tucop)(23967): org.tucop
+E/getAppPackageInfo (com.kresus.superapp)(23967): com.kresus.superapp
+E/getAppPackageInfo (io.sinum.wallet)(23967): io.sinum.wallet
+E/getAppPackageInfo (com.balletcrypto)(23967): com.balletcrypto
+E/getAppPackageInfo (com.shapeshift.droid_shapeshift)(23967): com.shapeshift.droid_shapeshift
+E/getAppPackageInfo (io.nash.app)(23967): io.nash.app
+E/getAppPackageInfo (com.clave.mobile)(23967): com.clave.mobile
+E/getAppPackageInfo (com.wallet.Bettatrade)(23967): com.wallet.Bettatrade
+E/getAppPackageInfo (com.pilab.pockie)(23967): com.pilab.pockie
+E/getAppPackageInfo (online.puzzle)(23967): online.puzzle
+E/getAppPackageInfo (finance.voltage.app)(23967): finance.voltage.app
+E/getAppPackageInfo (sahal.wallet.app)(23967): sahal.wallet.app
+E/getAppPackageInfo (com.smartwallet.app)(23967): com.smartwallet.app
+E/getAppPackageInfo (com.trustassetapp)(23967): com.trustassetapp
+E/getAppPackageInfo (io.nonbank)(23967): io.nonbank
+E/getAppPackageInfo (com.tradestrike)(23967): com.tradestrike
+E/getAppPackageInfo (money.dfinn.wallet)(23967): money.dfinn.wallet
+E/getAppPackageInfo (com.legion.production)(23967): com.legion.production
+E/getAppPackageInfo (com.ripio.android)(23967): com.ripio.android
+E/getAppPackageInfo (tomo.app.unyx)(23967): tomo.app.unyx
+E/getAppPackageInfo (com.gardianwallet)(23967): com.gardianwallet
+E/getAppPackageInfo (com.rezor)(23967): com.rezor
+E/getAppPackageInfo (com.utorg)(23967): com.utorg
+E/getAppPackageInfo (com.zypto)(23967): com.zypto
+E/getAppPackageInfo (com.fxfi.fxwallet)(23967): com.fxfi.fxwallet
+E/getAppPackageInfo (com.tastycrypto)(23967): com.tastycrypto
+E/getAppPackageInfo (com.superex.ex)(23967): com.superex.ex
+E/getAppPackageInfo (com.kddi.wallet)(23967): com.kddi.wallet
+E/getAppPackageInfo (org.elastos.essentials.app)(23967): org.elastos.essentials.app
+E/getAppPackageInfo (io.universaleverything.universalprofiles)(23967): io.universaleverything.universalprofiles
+E/getAppPackageInfo (com.indiggcommunity)(23967): com.indiggcommunity
+E/getAppPackageInfo (com.wallet.pools)(23967): com.wallet.pools
+E/getAppPackageInfo (app.gamic.guild.gamic_guild_mobile)(23967): app.gamic.guild.gamic_guild_mobile
+E/getAppPackageInfo (app.m1nty.android)(23967): app.m1nty.android
+E/getAppPackageInfo (io.chainon.lsyim)(23967): io.chainon.lsyim
+E/getAppPackageInfo (com.crypto.wallet.catecoin)(23967): com.crypto.wallet.catecoin
+E/getAppPackageInfo (com.bose.meta.browser)(23967): com.bose.meta.browser
+E/getAppPackageInfo (io.copiosa.exchange)(23967): io.copiosa.exchange
+E/getAppPackageInfo (com.ttmbank.wallet.app)(23967): com.ttmbank.wallet.app
+E/getAppPackageInfo (world.dosi.vault)(23967): world.dosi.vault
+E/getAppPackageInfo (app.qubic.wallet)(23967): app.qubic.wallet
+E/getAppPackageInfo (capital.spatium.wallet)(23967): capital.spatium.wallet
+E/getAppPackageInfo (com.vimworld.wallet)(23967): com.vimworld.wallet
+E/getAppPackageInfo (com.travisheron.swopapp)(23967): com.travisheron.swopapp
+E/getAppPackageInfo (com.oice)(23967): com.oice
+E/getAppPackageInfo (com.dolllet.mainnet)(23967): com.dolllet.mainnet
+E/getAppPackageInfo (com.gayawalletmobapp)(23967): com.gayawalletmobapp
+E/getAppPackageInfo (io.fgraph.shinobiwallet)(23967): io.fgraph.shinobiwallet
+E/getAppPackageInfo (com.azc.azcoiner)(23967): com.azc.azcoiner
+E/getAppPackageInfo (com.passwallet.app)(23967): com.passwallet.app
+E/getAppPackageInfo (market.bonuz.app)(23967): market.bonuz.app
+E/getAppPackageInfo (com.viabtc.wallet)(23967): com.viabtc.wallet
+E/getAppPackageInfo (com.secretkeylabs.xverse)(23967): com.secretkeylabs.xverse
+E/getAppPackageInfo (com.coinsdo.wallet)(23967): com.coinsdo.wallet
+E/getAppPackageInfo (com.flashwallet.production)(23967): com.flashwallet.production
+E/getAppPackageInfo (io.nodle.cash)(23967): io.nodle.cash
+E/getAppPackageInfo (com.arianee.wallet)(23967): com.arianee.wallet
+E/getAppPackageInfo (com.trustkeysnetwork)(23967): com.trustkeysnetwork
+E/getAppPackageInfo (com.chiatk.apps.ozone1)(23967): com.chiatk.apps.ozone1
+E/getAppPackageInfo (com.adrihoke.konio)(23967): com.adrihoke.konio
+E/getAppPackageInfo (com.io.owallet)(23967): com.io.owallet
+E/getAppPackageInfo (com.zelus.wallet)(23967): com.zelus.wallet
+E/getAppPackageInfo (com.app.renegade)(23967): com.app.renegade
+E/getAppPackageInfo (com.carrieverse.cling.wallet)(23967): com.carrieverse.cling.wallet
+E/getAppPackageInfo (com.icecorp.wallet)(23967): com.icecorp.wallet
+E/getAppPackageInfo (com.maxwallet.cc)(23967): com.maxwallet.cc
+E/getAppPackageInfo (com.streakk)(23967): com.streakk
+E/getAppPackageInfo (com.pandoshi.wallet)(23967): com.pandoshi.wallet
+E/getAppPackageInfo (com.wallet.porta.android)(23967): com.wallet.porta.android
+E/getAppPackageInfo (earth.wallet.app)(23967): earth.wallet.app
+E/getAppPackageInfo (io.up.wallet)(23967): io.up.wallet
+E/getAppPackageInfo (net.spatium.next)(23967): net.spatium.next
+E/getAppPackageInfo (com.adf.wallet)(23967): com.adf.wallet
+E/getAppPackageInfo (com.opz.dev)(23967): com.opz.dev
+E/getAppPackageInfo (xyz.wallypto)(23967): xyz.wallypto
+E/getAppPackageInfo (com.app.kelpa)(23967): com.app.kelpa
+E/getAppPackageInfo (com.xellar.wallets)(23967): com.xellar.wallets
+E/getAppPackageInfo (com.qoin.wallet)(23967): com.qoin.wallet
+E/getAppPackageInfo (com.me.daffione)(23967): com.me.daffione
+E/getAppPackageInfo (com.hashhalli.obvious)(23967): com.hashhalli.obvious
+E/getAppPackageInfo (com.impactmarket.mobile)(23967): com.impactmarket.mobile
+E/getAppPackageInfo (com.csm_app)(23967): com.csm_app
+E/getAppPackageInfo (wallet.flooz.mobile)(23967): wallet.flooz.mobile
+E/getAppPackageInfo (com.blockaura_classic)(23967): com.blockaura_classic
+E/getAppPackageInfo (com.kriptonio.mobile.android)(23967): com.kriptonio.mobile.android
+E/getAppPackageInfo (com.bitnovo.Wallet)(23967): com.bitnovo.Wallet
+E/getAppPackageInfo (com.btuprotocol.btu_wallet)(23967): com.btuprotocol.btu_wallet
+E/getAppPackageInfo (com.palettechain.wallet)(23967): com.palettechain.wallet
+E/getAppPackageInfo (one.nobank.app)(23967): one.nobank.app
+E/getAppPackageInfo (org.shefi.app)(23967): org.shefi.app
+E/getAppPackageInfo (com.greehood.wallet)(23967): com.greehood.wallet
+E/getAppPackageInfo (com.io.helix.id)(23967): com.io.helix.id
+E/getAppPackageInfo (network.gridlock.AppGridlock)(23967): network.gridlock.AppGridlock
+E/getAppPackageInfo (app.keeper.wallet)(23967): app.keeper.wallet
+E/getAppPackageInfo (com.metallicus.webauth)(23967): com.metallicus.webauth
+E/getAppPackageInfo (com.wemixfoundation.wemixwallet)(23967): com.wemixfoundation.wemixwallet
+E/getAppPackageInfo (io.scramberry.wallet)(23967): io.scramberry.wallet
+E/getAppPackageInfo (com.bmawallet)(23967): com.bmawallet
+E/getAppPackageInfo (life.lifecrypto.app)(23967): life.lifecrypto.app
+E/getAppPackageInfo (com.mining.amaze.wallet)(23967): com.mining.amaze.wallet
+E/getAppPackageInfo (com.jambo)(23967): com.jambo
+E/getAppPackageInfo (com.arcblock.wallet.app.product)(23967): com.arcblock.wallet.app.product
+E/getAppPackageInfo (app.dropmate)(23967): app.dropmate
+E/getAppPackageInfo (co.edgesecure.app)(23967): co.edgesecure.app
+E/getAppPackageInfo (app.banksocial.io)(23967): app.banksocial.io
+E/getAppPackageInfo (com.oblio.wallet)(23967): com.oblio.wallet
+E/getAppPackageInfo (org.ecoinwallet)(23967): org.ecoinwallet
+E/getAppPackageInfo (network.bho.wallet)(23967): network.bho.wallet
+E/getAppPackageInfo (com.ipmb.app)(23967): com.ipmb.app
+E/getAppPackageInfo (com.qubetics.wallet)(23967): com.qubetics.wallet
+E/getAppPackageInfo (com.hackenai.hackenaiapp)(23967): com.hackenai.hackenaiapp
+E/getAppPackageInfo (com.iMe.android)(23967): com.iMe.android
+E/getAppPackageInfo (com.astrox.me)(23967): com.astrox.me
+E/getAppPackageInfo (com.nslab.purewalletp)(23967): com.nslab.purewalletp
+E/getAppPackageInfo (com.ethos2.prod)(23967): com.ethos2.prod
+E/getAppPackageInfo (xyz.blanq.mobile)(23967): xyz.blanq.mobile
+E/getAppPackageInfo (com.pgk.keyboard)(23967): com.pgk.keyboard
+E/getAppPackageInfo (com.revelator.originalworks)(23967): com.revelator.originalworks
+E/getAppPackageInfo (com.lif3.wallet)(23967): com.lif3.wallet
+E/getAppPackageInfo (com.broearn.browser)(23967): com.broearn.browser
+E/getAppPackageInfo (com.portto.blocto)(23967): com.portto.blocto
+E/getAppPackageInfo (app.girinwallet)(23967): app.girinwallet
+E/getAppPackageInfo (com.plena)(23967): com.plena
+E/getAppPackageInfo (com.bitverse.app)(23967): com.bitverse.app
+E/getAppPackageInfo (io.yooba.main)(23967): io.yooba.main
+E/getAppPackageInfo (com.saify)(23967): com.saify
+E/getAppPackageInfo (com.app.plutope)(23967): com.app.plutope
+E/getAppPackageInfo (com.crypto.ab.wallet.app)(23967): com.crypto.ab.wallet.app
+E/getAppPackageInfo (com.islami.wallet)(23967): com.islami.wallet
+E/getAppPackageInfo (com.dok.wallet)(23967): com.dok.wallet
+E/getAppPackageInfo (xyz.nestwallet.nestwallet)(23967): xyz.nestwallet.nestwallet
+E/getAppPackageInfo (app.w3wallet.w3wallet)(23967): app.w3wallet.w3wallet
+E/getAppPackageInfo (com.cryptnox.cryptnoxwallet)(23967): com.cryptnox.cryptnoxwallet
+E/getAppPackageInfo (com.blockchaincommodities.hippo_wallet)(23967): com.blockchaincommodities.hippo_wallet
+E/getAppPackageInfo (io.ukiss.uhub.mobile)(23967): io.ukiss.uhub.mobile
+E/getAppPackageInfo (io.bimwallet)(23967): io.bimwallet
+E/getAppPackageInfo (cc.dropp.wallet)(23967): cc.dropp.wallet
+E/getAppPackageInfo (com.payperless.wallet)(23967): com.payperless.wallet
+E/getAppPackageInfo (co.nycrypto.tiduswallet)(23967): co.nycrypto.tiduswallet
+E/getAppPackageInfo (com.rktechworks.idpocket)(23967): com.rktechworks.idpocket
+E/getAppPackageInfo (com.sinohope.mpcwallet.app)(23967): com.sinohope.mpcwallet.app
+E/getAppPackageInfo (com.metaverse.world.cube)(23967): com.metaverse.world.cube
+E/getAppPackageInfo (network.dgg.wallet)(23967): network.dgg.wallet
+E/getAppPackageInfo (pub.dg.wallet)(23967): pub.dg.wallet
+E/getAppPackageInfo (org.telegram.messenger)(23967): org.telegram.messenger
+E/getAppPackageInfo (io.moonstake.wallet)(23967): io.moonstake.wallet
+E/getAppPackageInfo (com.mpcvault.mobileapp.android)(23967): com.mpcvault.mobileapp.android
+E/getAppPackageInfo (co.altme.alt.me.altme)(23967): co.altme.alt.me.altme
+E/getAppPackageInfo (org.talkapp)(23967): org.talkapp
+E/getAppPackageInfo (com.gm2.app.prod)(23967): com.gm2.app.prod
+E/getAppPackageInfo (digital.minerva)(23967): digital.minerva
+E/getAppPackageInfo (com.stasis.stasiswallet)(23967): com.stasis.stasiswallet
+E/getAppPackageInfo (com.cryptokara)(23967): com.cryptokara
+E/getAppPackageInfo (com.peakdefiwallet)(23967): com.peakdefiwallet
+E/getAppPackageInfo (xucre.expo.client)(23967): xucre.expo.client
+E/getAppPackageInfo (com.panaroma.wallet)(23967): com.panaroma.wallet
+E/getAppPackageInfo (network.spotonchain)(23967): network.spotonchain
+E/getAppPackageInfo (fi.steakwallet.app)(23967): fi.steakwallet.app
+E/getAppPackageInfo (com.humbl.wallet.app)(23967): com.humbl.wallet.app
+E/getAppPackageInfo (com.htc.vivewallet)(23967): com.htc.vivewallet
+E/getAppPackageInfo (com.xenea.wallet)(23967): com.xenea.wallet
+E/getAppPackageInfo (com.superhero.cordova)(23967): com.superhero.cordova
+E/getAppPackageInfo (com.indiggcommunity)(23967): com.indiggcommunity
+E/getAppPackageInfo (com.squirrelwallet.app)(23967): com.squirrelwallet.app
+E/getAppPackageInfo (com.trusteewallet)(23967): com.trusteewallet
+E/getAppPackageInfo (com.roar_wallet)(23967): com.roar_wallet
+E/getAppPackageInfo (com.roar_wallet)(23967): com.roar_wallet
+E/getAppPackageInfo (com.wallet.daily)(23967): com.wallet.daily
+E/getAppPackageInfo (org.stellar.freighterwallet)(23967): org.stellar.freighterwallet
+E/getAppPackageInfo (org.ab.abwallet.android.release)(23967): org.ab.abwallet.android.release
+E/getAppPackageInfo (org.toshi)(23967): org.toshi
+E/getAppPackageInfo (app.phantom)(23967): app.phantom
+E/getAppPackageInfo (com.solflare.mobile)(23967): com.solflare.mobile
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@becc92f
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@becc92f
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@becc92f
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@becc92f
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@becc92f
+I/VRI[MainActivity]@becc92f(23967): call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@becc92f
+
+Application finished.
