@@ -18,6 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     _appKitModal = ReownAppKitModal(
       context: context,
+      logLevel: LogLevel.all,
       projectId: '288fbb58ea9790bde773e949a76092c3',
       metadata: const PairingMetadata(
         name: 'Example App',
