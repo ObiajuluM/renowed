@@ -1,5 +1,5 @@
 ss24:
-	adb connect 192.168.1.210
+	adb connect 192.168.1.244
 
 spxl:
 	adb connect 192.168.1.176
