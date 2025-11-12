@@ -28,7 +28,7 @@ class Landing extends StatelessWidget {
             MaterialPageRoute(
               builder: (context) => MyHomePage(title: "Renowed"),
             ),
-          );
+          ); 
         },
         child: Center(child: Text("data")),
       ),
